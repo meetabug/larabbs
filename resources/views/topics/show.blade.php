@@ -44,6 +44,7 @@
                         {!! $topic->body !!}
                     </div>
 
+                    @can('update',$topic)
                     <div class="operate">
                         <hr>
                         <a href="{{ route('topics.edit', $topic->id) }}" class="btn btn-outline-secondary btn-sm"
@@ -54,7 +55,7 @@
                             <i class="far fa-trash-alt"></i> 删除
                         </a>
                     </div>
-
+                    @endcan
                 </div>
             </div>
         </div>

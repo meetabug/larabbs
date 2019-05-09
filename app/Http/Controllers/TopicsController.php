@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Topic;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
+use App\Models\Topic;
 
 class TopicsController extends Controller
 {

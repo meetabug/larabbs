@@ -16,10 +16,6 @@ class TopicObserver
         $topic->body = clean($topic->body,'user_topic_body');
 
         $topic->excerpt = make_excerpt($topic->body);
-
-        if(!$topic->slug){
-           dispatch(new TranslateSlug($topic));
-        }
     }
 
     public function saved(Topic $topic)

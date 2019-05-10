@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214e7352-cba8-4834-8e45-ff4c4b3a4452" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_05_10_155234_add_references.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -54,6 +50,24 @@
               <folding>
                 <element signature="e#38#56#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -97,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" />
         <option value="$PROJECT_DIR$/app/Notifications/TopicReplied.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" />
         <option value="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" />
@@ -121,7 +134,6 @@
         <option value="$PROJECT_DIR$/config/administrator/settings/site.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/permission_denied.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/Models/Traits/ActiveUserHelper.php" />
@@ -148,6 +160,8 @@
         <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/resources/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -331,14 +345,12 @@
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -401,12 +413,12 @@
       <workItem from="1557280006751" duration="19826000" />
       <workItem from="1557363614221" duration="24491000" />
       <workItem from="1557450104895" duration="10312000" />
-      <workItem from="1557466574148" duration="9600000" />
+      <workItem from="1557466574148" duration="9775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64229000" />
+    <option name="totallyTimeSpent" value="64404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,13 +452,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Policies/ReplyPolicy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="75" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Topic.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -611,13 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="46" column="84" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -833,6 +831,20 @@
           <folding>
             <element signature="e#38#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ return array(
      *
      * @type string
      */
-    'title' => env('APP_NAME','Larevel'),
+    'title' => env('APP_NAME', 'Larevel'),
 
     /*
      * The path to your model config directory
@@ -62,7 +62,12 @@ return array(
         '用户与权限' => [
             'users',
             'roles',
-            'permissions'
+            'permissions',
+        ],
+        '内容管理' => [
+            'categories',
+            'topics',
+            'replies',
         ],
     ],
 

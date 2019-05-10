@@ -31,12 +31,14 @@ class SeedRolesAndPermissionsData extends Migration
 
     public function down()
     {
+        // 需清除缓存，否则会报错
         app(Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
 
-        $tableNames = config('permissions.table_names');
+        // 清空所有数据表数据
+        $tableNames = config('permission.table_names');
 
         Model::unguard();
-        DB::table($tableNames['role_has_permission'])->delete();
+        DB::table($tableNames['role_has_permissions'])->delete();
         DB::table($tableNames['model_has_roles'])->delete();
         DB::table($tableNames['model_has_permissions'])->delete();
         DB::table($tableNames['roles'])->delete();
